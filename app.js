@@ -1,6 +1,6 @@
 // funcion para generar el numero de en medio
 function numeroRandom(){
-    let numeros = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
+    let numeros = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
     let numFinal = Math.floor(Math.random() * numeros.length);
     return numeros[numFinal];
 }
