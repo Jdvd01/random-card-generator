@@ -11,7 +11,6 @@ function pintaRandom(){
     let pintaAleatoria = Math.floor(Math.random() * pinta.length);
     return pinta[pintaAleatoria];
 }
-pintaFinal = pintaRandom();
 
 //carta completa
 let card = document.querySelector("#card");
