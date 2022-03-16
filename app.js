@@ -13,12 +13,10 @@ function pintaRandom(){
 }
 pintaFinal = pintaRandom();
 
-//si la pinta es diamante o corazon, que sea rojo
-
-
 //carta completa
 let card = document.querySelector("#card");
 
+//cambiar el color si la pinta es diamante o corazon
 card.style.color = `${pintaFinal == '♦' || pintaFinal == '♥️' ? "red" : "black"}`;
 
 
